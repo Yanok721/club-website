@@ -1,0 +1,8 @@
+{
+  "name": "club-website",
+  "workspaces": ["server"],
+  "scripts": {
+    "start:dev": "docker compose up -d --build",
+    "stop": "docker compose down"
+  }
+}
